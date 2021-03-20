@@ -1,0 +1,58 @@
+html {
+  box-sizing: border-box;
+  font-size: calc(10px + .5vw); // fluid typography
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+  background: white;
+  font-size: 12px;
+}
+
+body, h1, pre, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+#works {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+#works > article {
+  position: relative;
+  flex: 0 0 33.333333%;
+  cursor: pointer;
+}
+
+#works > article > canvas {
+  width: 100%;
+  cursor: pointer;
+  height:
+}
+
+header {
+  font-size: 2em;
+  height: 61.8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+}
+
+header h1 {
+  text-align: center
+}
+
+footer {
+  font-size: 2em;
+  min-height: 61.8vh;
+  text-align: center;
+  padding: 1em;
+}
