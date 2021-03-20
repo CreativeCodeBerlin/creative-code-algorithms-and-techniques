@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 html {
   box-sizing: border-box;
-  font-size: calc(10px + .5vw); // fluid typography
+  font-size: calc(10px + .5vw); /* fluid typography */
+  font-family: "Open Sans", sans-serif;
 }
 
 *,
@@ -44,6 +47,7 @@ header {
   align-items: center;
   justify-content: center;
   padding: 1em;
+  flex-direction: column;
 }
 
 header h1 {
