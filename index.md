@@ -1,5 +1,5 @@
 ---
-title: My page
+title: My page update
 layout: default
 ---
 
